@@ -1,0 +1,760 @@
+.map {
+      width: 350px; /* Širina mape */
+      height: 300px; /* Visina mape */
+      margin-top: 20px; /* Margina iznad mape */
+      border: 5px solid powderblue;
+    }
+.searchMap {
+      width: 320px; /* Širina mape */
+      height: 150px; /* Visina mape */
+      border: 5px solid powderblue;
+    }
+    
+.addingObjectMap {
+      width: 320px; /* Širina mape */
+      height: 175px; /* Visina mape */
+      border: 5px solid powderblue;
+    }
+    
+.objectMap {
+      width: 700px; /* Širina mape */
+      height: 220px; /* Visina mape */
+      margin-top: 20px;
+      border: 5px solid powderblue;
+    }
+
+.registrationLabel {
+        display: inline-block;
+        width: 180px;
+        text-align: left;
+        font-size: 20px;
+        height: 40px;
+        margin-bottom: 10px;
+        color: white;
+        font-weight: bold;
+}
+
+.registration1Label {
+        display: inline-block;
+        width: 70px;
+        text-align: left;
+        font-size: 14px;
+        height: 25px;
+        margin-bottom: 10px;
+        color: white;
+        font-weight: bold;
+}
+
+.registration2Label {
+        display: inline-block;
+        width: 150px;
+        text-align: left;
+        font-size: 16px;
+        height: 25px;
+        margin-bottom: 10px;
+        color: white;
+        font-weight: bold;
+}
+.registration3Label {
+        display: inline-block;
+        width: 90px;
+        text-align: left;
+        font-size: 16px;
+        height: 70px;
+        margin-bottom: 10px;
+        color: white;
+        font-weight: bold;
+}
+
+
+.tabelLabel {
+        display: inline-block;
+        width: 170px;
+        text-align: left;
+        font-size: 18px;
+        height: 25px;
+        margin-bottom: 10px;
+        color: white;
+        font-weight: bold;
+}
+
+.divContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.userDataLabel {
+        display: inline-block;
+        width: 180px;
+        text-align: right;
+        font-size: 20px;
+        height: 40px;
+        margin-bottom: 10px;
+        color: white;
+        font-weight: bold;
+}
+
+.user1DataLabel {
+        display: inline-block;
+        width: 100px;
+        text-align: right;
+        font-size: 16px;
+        height: 70px;
+        margin-bottom: 10px;
+        color: white;
+        font-weight: bold;
+}
+
+.objectsLabel {
+        display: inline-block;
+        width: 220px;
+        text-align: center;
+        font-size: 20px;
+        margin-bottom: 10px;
+        color: white;
+        font-weight: bold;
+}
+
+.objects1Label {
+        display: inline-block;
+        width: 80px;
+        text-align: center;
+        font-size: 16px;
+        color: white;
+        font-weight: bold;
+        margin-bottom: 1px;
+}
+.objects2Label {
+        display: inline-block;
+        width: auto;
+        text-align: center;
+        font-size: 16px;
+        color: white;
+        font-weight: bold;
+        margin-bottom: 1px;
+}
+
+.thLabel {
+	font-size: 26px;
+	color: white;
+	
+}
+.th1Label {
+	font-size: 20px;
+	color: white;
+	
+}
+.vehiclesTabel{
+	width: 95%;
+	border: 5px solid powderblue;
+	border-radius: 10px;
+    border-collapse: separate;
+}
+.objectsTabel{
+	width: 95%;
+	border: 5px solid powderblue;
+	border-radius: 10px;
+	border-collapse: separate;
+}
+.rowBackground{
+	background: linear-gradient(to top, lightseagreen, teal 0%, lightseagreen, lightseagreen); 
+	height: 40px
+}
+.objectsImage {
+        width: 100px;
+        height: 100px;
+        vertical-align: center;
+        margin: 0;
+        padding: 0
+}
+
+.commentTextStyle{
+	height: 100%;
+	width: 100%;
+	background: lightseagreen;
+	text-align: center;
+	border: none;
+	color: white
+} 
+
+.reasonStyle{
+	background: lightgray;
+	text-align: center;
+	color: white;
+	width: 300px; 
+	height: 100px; 
+	border: 3px solid teal;
+	border-radius: 10px
+}
+
+.objectDataTabel {
+	text-align: center; 
+	vertical-align: top; 
+	margin-top: 70px;
+	border: 3px solid powderblue;
+  	border-radius: 20px;
+  	width: 95%;
+   	background: linear-gradient(to top, lightseagreen, teal 0%, lightseagreen, lightseagreen); 
+   	padding: 20px;
+}
+
+.logoImage {
+        width: 50px;
+        height: 50px;
+        margin-left: 30px;
+        margin-top: 20px;
+        padding: 0
+}    
+
+.search{
+    border-collapse: collapse;
+    border-radius: 10px;
+  }   
+      
+.idSubmit {
+	width: 500px;
+	height: 40px;
+	border-radius: 10px; 
+	margin-top: 50px;
+	margin-bottom: 10px;
+	background-color: #AFEEEE;
+	font-weight: bold;
+	color: teal;
+	font-size: 22px;
+	border: none;
+	cursor: hand;
+}
+.id1Submit {
+	width: 250px;
+	height: 30px;
+	border-radius: 10px;
+	background-color: #006666;
+	font-weight: bold;
+	color: white;
+	font-size: 16px;
+	border: 2px solid powderblue;
+	cursor: hand;
+}
+.menuButton {
+	width: 180px;
+	background-color: teal;
+	font-weight: bold;
+	color: white;
+	font-size: 20px;
+	border: 5px solid powderblue;
+	height: 80px;
+	border-radius: 10px;
+	cursor: hand;
+}
+.loginButton {
+	width: 140px;
+	background-color: teal;
+	font-weight: bold;
+	color: white;
+	font-size: 20px;
+	border: 5px solid powderblue;
+	height: 50px;
+	border-radius: 10px;
+	cursor: hand;
+}
+
+.confirmButton {
+	width: 90px;
+	background-color: #006666;
+	font-weight: bold;
+	color: white;
+	font-size: 16px;
+	border: 2px solid powderblue;
+	height: 40px;
+	border-radius: 10px;
+	cursor: hand;
+	text-align: center;
+}
+
+.approveButton {
+	width: 90px;
+	background-color: #00FF7F;
+	font-weight: bold;
+	color: white;
+	font-size: 16px;
+	border: 2px solid powderblue;
+	height: 40px;
+	border-radius: 10px;
+	cursor: hand;
+	text-align: center;
+}
+
+.declineButton {
+	width: 90px;
+	background-color: tomato;
+	font-weight: bold;
+	color: white;
+	font-size: 16px;
+	border: 2px solid powderblue;
+	height: 40px;
+	border-radius: 10px;
+	cursor: hand;
+	text-align: center;
+}
+
+.receiveButton {
+	width: 90px;
+	background-color: #87CEEB;
+	font-weight: bold;
+	color: white;
+	font-size: 16px;
+	border: 2px solid powderblue;
+	height: 40px;
+	border-radius: 10px;
+	cursor: hand;
+	text-align: center;
+}
+
+.returnButton {
+	width: 90px;
+	background-color: gray;
+	font-weight: bold;
+	color: white;
+	font-size: 16px;
+	border: 2px solid powderblue;
+	height: 40px;
+	border-radius: 10px;
+	cursor: hand;
+	text-align: center;
+}
+
+.commentButton {
+	width: 90px;
+	background-color: Purple;
+	font-weight: bold;
+	color: white;
+	font-size: 16px;
+	border: 2px solid powderblue;
+	height: 40px;
+	border-radius: 10px;
+	cursor: hand;
+	text-align: center;
+}
+
+
+
+.objectDetailsButton{
+	width: 200px;
+	background-color: lightseagreen;
+	font-weight: bold;
+	color: white;
+	font-size: 20px;
+	border: 3px solid powderblue;
+	height: 140px;
+	border-radius: 10px;
+	cursor: hand;
+	margin-top: 5px
+}
+
+button[disabled]:hover {
+  /* Promena stilova za hover efekat kada je dugme onemogućeno */
+  /* Na primer, promena boje pozadine */
+  background-color: lightgray;
+  cursor: default
+}
+
+button[disabled]{
+	background-color: lightgray;
+}
+
+.objectDetailsButton:hover{
+	background-color: lightskyblue;
+}
+.confirmButton:hover{
+	background-color: lightskyblue;
+}
+
+.commentButton:hover{
+	background-color: lightskyblue;
+}
+
+.approveButton:hover{
+	background-color: lightskyblue;
+}
+.declineButton:hover{
+	background-color: lightskyblue;
+}
+.receiveButton:hover{
+	background-color: lightskyblue;
+}
+.returnButton:hover{
+	background-color: lightskyblue;
+}
+.idSubmit:hover {
+  background-color: lightskyblue;
+}
+.id1Submit:hover {
+  background-color: lightskyblue;
+}
+.menuButton:hover {
+  background-color: lightskyblue;
+}
+.loginButton:hover {
+  background-color: lightskyblue;
+}
+
+.searchTabel {
+  border: 3px solid powderblue;
+  border-radius: 20px;
+  width: 95%;
+  background: linear-gradient(to top, lightseagreen, teal 0%, lightseagreen, lightseagreen);
+  padding: 15px;
+  
+}
+
+
+#linkLabel{
+        width: 300px;
+        text-align: left;
+        margin-right: 10px;
+        font-size: 20px;
+        height: 40px;
+        color: white;
+        font-weight: bold;
+}
+
+#linkSignUp{
+        width: 200px;
+        text-align: right;
+        margin-left: 10px;
+        font-size: 20px;
+        height: 40px;
+}
+
+.linkLogin{
+        width: 500px;
+        text-align: right;
+        margin-right: 20px;
+        padding-top: 20px;
+        font-size: 20px;
+        height: 40px;
+}
+
+.linkHome{
+        width: 500px;
+        text-align: left;
+        margin-left: 20px;
+        padding-top: 20px;
+        font-size: 20px;
+        height: 40px;
+}
+
+.newManager {
+	width: 30%;
+}
+
+.newManager:hidden {
+  width: 0;
+}
+
+#registrationPage {
+	background-image: url('resources/images/blue.jpg');
+	background-size: cover;
+	
+}
+
+.registrationInput {
+	border-radius: 10px; 
+	background: lightgray;
+	font-size: 20px;
+	height: 40px;
+	width: 320px;
+	margin-bottom: 10px;
+	border: none;
+}
+
+.registration1Input {
+	border-radius: 10px; 
+	background: lightgray;
+	font-size: 14px;
+	height: 25px;
+	width: 100px;
+	margin-bottom: 10px;
+	border: none;
+}
+.registration2Input {
+	border-radius: 10px; 
+	background: lightgray;
+	font-size: 16px;
+	height: 25px;
+	width: 150px;
+	margin-bottom: 10px;
+	border: none;
+}
+
+.registration3Input {
+	border-radius: 10px; 
+	background: lightgray;
+	font-size: 16px;
+	height: 25px;
+	width: 240px;
+	margin-bottom: 10px;
+	border: none;
+}
+.gradeInput {
+	border-radius: 10px; 
+	background: lightgray;
+	font-size: 16px;
+	height: 25px;
+	width: 75px;
+	margin-bottom: 10px;
+	border: none;
+	text-align: center;
+}
+
+.grade1Input {
+	border-radius: 10px; 
+	background: lightgray;
+	font-size: 16px;
+	height: 25px;
+	width: 120px;
+	margin-bottom: 10px;
+	border: none;
+	text-align: center;
+}
+
+.tabelInput {
+	border-radius: 10px; 
+	background: lightgray;
+	font-size: 16px;
+	height: 25px;
+	width: 120px;
+	margin-bottom: 10px;
+	border: none;
+}
+
+.tabel1Input {
+	border-radius: 10px; 
+	background: lightgray;
+	font-size: 16px;
+	height: 25px;
+	width: 290px;
+	margin-top: 5px;
+	border: none;
+}
+
+
+.radioStyle {
+	margin-top: 3px;
+	height: 25px
+}
+
+.radioLabel {
+        width: auto;
+        text-align: left;
+        margin-top: 3px;
+        font-size: 20px;
+        height: 30px;
+        color: white;
+}
+.radio1Label {
+        width: auto;
+        text-align: left;
+        margin-top: 3px;
+        font-size: 14px;
+        height: 25px;
+        color: white;
+}
+
+h1 {
+	color: #13274F;
+	font-family: "georgia";
+	font-size: 40px;
+	padding-top: 5px;
+	text-align: center;
+	margin-right: 0px;
+}
+
+.rentObjectsViewTitle {
+	
+	color: #13274F;
+	font-family: "georgia";
+	font-size: 30px;
+	padding-top: 5px;
+	text-align: center;
+	margin-right: 0px;
+}
+
+h2 {
+	color: #13274F;
+	font-family: "georgia";
+	font-size: 30px;
+	padding-top: 20px;
+	text-align: center;
+	margin-right: 0px;
+}
+h4 {
+	color: #13274F;
+	font-family: "georgia";
+	font-size: 20px;
+	text-align: center;
+	margin-right: 0px;
+}
+html, body{
+	height: 100%;
+}
+
+
+#formInputSignUp{
+	text-align: center;
+}
+
+.formRightAlign{
+	text-align: right;
+}
+
+.col{
+	 flex: 1;
+	 height: 100%;
+}
+
+#loginPage {
+	height: 100%;
+	display: flex;
+}
+
+.image {
+	width: 80%;
+	margin-top: 200px;
+	margin-left: 100px;
+	vertical-align: center
+}
+
+#loginForm{
+	text-align: center;
+	border: 3px solid teal;
+	border-radius: 10px;
+	height: 95%;
+	margin: 0;
+	margin-left: 60px;
+	margin-right: 60px;
+	background: linear-gradient(to top, lightseagreen, teal 0, lightseagreen, lightseagreen);
+	
+	
+}
+
+
+#registrationForm {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+
+.registrationFormContainer {
+	width: 40%;
+	border: 3px solid teal;
+	border-radius: 10px;
+	align-items: center;
+	margin: 20px; 
+	padding: 10px;
+	background: linear-gradient(to top, lightseagreen, teal 0, lightseagreen, lightseagreen);
+	height: 97%;
+	
+}
+
+.creatingVehicleContainer {
+	width: 90%;
+	border: 3px solid teal;
+	border-radius: 10px;
+	align-items: center;
+	margin: 20px; 
+	padding: 10px;
+	background: linear-gradient(to top, lightseagreen, teal 0, lightseagreen, lightseagreen);
+	height: 95%
+	
+}
+
+.userProfileDataContainer {
+	width: 30%;
+	border: 3px solid teal;
+	border-radius: 10px;
+	align-items: center;
+	margin: 20px; 
+	padding: 10px;
+}
+
+.rentObjectDataContainer {
+	width: 70%;
+	border: 3px solid teal;
+	border-radius: 10px;
+	align-items: center;
+	margin: 10px; 
+	padding: 10px;
+}
+
+.adminProfileDataContainer {
+	width: 87%;
+	border: 3px solid teal;
+	border-radius: 10px;
+	align-items: center;
+	margin: 10px; 
+	height: 700px;
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background: linear-gradient(to top, lightseagreen, teal 0, lightseagreen, lightseagreen);
+    
+	
+}
+
+.locationContainer {
+	width: 50%;
+	border: 3px solid teal;
+	border-radius: 10px;
+	align-items: center;
+	margin: 20px; 
+	padding: 10px;
+}
+
+.locationInObjectContainer {
+	width: 700px;
+	border: 3px solid teal;
+	border-radius: 10px;
+	align-items: center;
+	margin-top: 20px;
+}
+
+.locationLabel {
+    width: 70px;
+    text-align: left;
+    font-size: 20px;
+    height: 25px;
+    color: white;
+    font-weight: bold;
+}
+
+.objectsViewContainer {
+	width: 98%;
+	border: 3px solid teal;
+	border-radius: 10px;
+	align-items: center;
+	margin-bottom: 10px;
+	margin: 5px; 
+	padding: 5px;
+	margin-bottom: 10px
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center
+  }
+img {
+    max-width: 100%
+}
+.imageNew {
+    flex-basis: 40%
+}
+.text {
+    font-size: 15px;
+}
